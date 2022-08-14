@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.geektech.fiftymonth7hwtest44.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
     lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

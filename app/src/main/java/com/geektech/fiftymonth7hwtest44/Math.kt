@@ -11,7 +11,10 @@ class Math {
             result=(num1+num2).toString()
         }else if(isNumeric(a)||isNumeric(b)){
             result="Вы ввели буквы"
-        }else if(a.contains("-")||b.contains("-")){
+        }else if(a.isEmpty()||b.isEmpty()){
+            result = "Вы ввели ничего"
+        }
+        else if(a.contains("-")||b.contains("-")){
             result = AddtoInt(a, b, result)
         }
         else{
